@@ -7,7 +7,7 @@ const viteConfig = defineConfig({
 	resolve: {
 		alias: [
 			{
-				find: '$components',
+				find: '@components',
 				replacement: resolve(__dirname, 'src/components')
 			}
 		]
