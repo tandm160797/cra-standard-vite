@@ -13,7 +13,7 @@ const viteConfig = defineConfig({
 		]
 	},
 
-	plugins: [svgr(), react()]
+	plugins: [react(), svgr()]
 });
 
 export default viteConfig;
